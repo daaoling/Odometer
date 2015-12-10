@@ -6,7 +6,9 @@ public class mOdometer : MonoBehaviour {
 	private int _curValue = 0;
 	public int curValue
 	{
-		get{ return this.curValue;}
+		get{
+            return this._curValue;
+        }
 		set{ 
 			this._curValue = value;
 
