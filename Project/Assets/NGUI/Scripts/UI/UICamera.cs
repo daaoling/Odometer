@@ -959,7 +959,7 @@ public class UICamera : MonoBehaviour
 	/// </summary>
 
 	void Awake ()
-	{
+	{ 
 		mWidth = Screen.width;
 		mHeight = Screen.height;
 
